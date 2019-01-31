@@ -3,5 +3,6 @@ Rails.application.routes.draw do
   get 'home', to: 'pages#home', as: 'home'
   get 'about', to: 'pages#about', as: 'about'
   get 'rabie', to: 'pages#Rabie', as: 'rabie'
+  get 'new', to: 'pages#new'
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
