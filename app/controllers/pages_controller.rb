@@ -8,4 +8,6 @@ class PagesController < ApplicationController
   def rabie
     # render 'rabie.html.erb'
   end
+  def new
+  end
 end
